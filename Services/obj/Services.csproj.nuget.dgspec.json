@@ -1,0 +1,166 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Downloads\\Thuc tap .NET\\qlStudent_Core7\\quanlyStudent\\Services\\Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Downloads\\Thuc tap .NET\\qlStudent_Core7\\quanlyStudent\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Downloads\\Thuc tap .NET\\qlStudent_Core7\\quanlyStudent\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Downloads\\Thuc tap .NET\\qlStudent_Core7\\quanlyStudent\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Trieu Phan\\.nuget\\packages\\",
+        "outputPath": "C:\\Downloads\\Thuc tap .NET\\qlStudent_Core7\\quanlyStudent\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Trieu Phan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Downloads\\Thuc tap .NET\\qlStudent_Core7\\quanlyStudent\\Repository\\Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Downloads\\Thuc tap .NET\\qlStudent_Core7\\quanlyStudent\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "C:\\Downloads\\Thuc tap .NET\\qlStudent_Core7\\quanlyStudent\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\Trieu Phan\\.nuget\\packages\\",
+        "outputPath": "C:\\Downloads\\Thuc tap .NET\\qlStudent_Core7\\quanlyStudent\\Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Trieu Phan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Downloads\\Thuc tap .NET\\qlStudent_Core7\\quanlyStudent\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Downloads\\Thuc tap .NET\\qlStudent_Core7\\quanlyStudent\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Downloads\\Thuc tap .NET\\qlStudent_Core7\\quanlyStudent\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Downloads\\Thuc tap .NET\\qlStudent_Core7\\quanlyStudent\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "C:\\Downloads\\Thuc tap .NET\\qlStudent_Core7\\quanlyStudent\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\Trieu Phan\\.nuget\\packages\\",
+        "outputPath": "C:\\Downloads\\Thuc tap .NET\\qlStudent_Core7\\quanlyStudent\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Trieu Phan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Downloads\\Thuc tap .NET\\qlStudent_Core7\\quanlyStudent\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Downloads\\Thuc tap .NET\\qlStudent_Core7\\quanlyStudent\\Domain\\Domain.csproj"
+              },
+              "C:\\Downloads\\Thuc tap .NET\\qlStudent_Core7\\quanlyStudent\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Downloads\\Thuc tap .NET\\qlStudent_Core7\\quanlyStudent\\Repository\\Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
